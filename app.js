@@ -6,10 +6,10 @@ const readLine = require('readline').createInterface({
 const fs = require('fs');
 
 const conf = {
-    host: '10.0.5.20',
-    port: '1883',
-    clientId: 'MML_PC',
-    topic: 'shellypro4pm-30c6f7840474/events/rpc'
+    host: '', // Insert IP of your MQTT broker
+    port: '', // MQTT port on the broker
+    clientId: '', // ID of your client - choose whatever string - like MY_PC
+    topic: '' // The topic you are subscribing to - like shellypro4pm-..../events/rpc
 }
 
 let sum = 0;
